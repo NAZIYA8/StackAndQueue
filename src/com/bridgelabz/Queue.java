@@ -13,6 +13,14 @@ public class Queue<T> {
     }
 
     /**
+     * This method is used to remove elements from queue
+     */
+    public int dequeue() {
+        return numberList.pop();
+    }
+
+
+    /**
      * This method prints all the elements
      * Here Traverse till the null and
      * print till the last node's next element is null
