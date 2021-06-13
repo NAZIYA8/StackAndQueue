@@ -13,6 +13,22 @@ public class Stack<T> {
     }
 
     /**
+     * Method to find the first element in the stack
+     *
+     * @return first element
+     */
+    public T peek() {
+        return numberList.peek();
+    }
+
+    /**
+     * Method to remove top most element from Stack
+     */
+    public void pop() {
+        numberList.pop();
+    }
+
+    /**
      * This method prints all the elements
      * Here Traverse till the null and
      * print till the last node's next element is null
